@@ -1,0 +1,206 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(159, 161, 182);
+    color: rgb(10, 26, 20);
+}
+
+header, footer {
+    background-color: rgb(159, 161, 182);
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: rgb(238, 247, 255);
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: rgb(60, 60, 200);
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: azure;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+#biografia-visual {
+    text-align: center;
+    padding: 20px;
+}
+
+#biografia-visual figure {
+    margin: 0;
+}
+
+#biografia-visual img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid rgb(150, 150, 150);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#biografia-visual figcaption {
+    margin-top: 10px;
+    font-style: italic;
+    color: rgb(50, 50, 50);
+}
+section ul{
+    list-style: square;
+    padding-left: 20px;
+    margin: 10px 0;
+    color: rgb(0, 0, 0);
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background-color: white;
+}
+
+table th, table td {
+    border: 1px solid #999;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #ccc;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#citacao {
+    background-color: #f0f0f0;
+    border-left: 5px solid #888;
+    padding: 15px 20px;
+    margin: 20px 0;
+    font-style: italic;
+}
+
+#citacao blockquote {
+    margin: 0;
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+#citacao cite {
+    display: block;
+    margin-top: 8px;
+    font-size: 0.9em;
+    color: #1f1d1d;
+}
+
+/* modo escuro */
+#modo-toggle {
+    position: absolute;
+    top: 20px;    
+    right: 20px;  
+    padding: 8px 15px;
+    border: none;
+    background-color: #2c2c2c;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#modo-toggle:hover {
+    background-color: #333;
+}
+
+header {
+    position: relative;
+}
+
+.modo-escuro {
+    background-color: #121212;
+    color: white;
+}
+
+.modo-escuro header,
+.modo-escuro footer {
+    background-color: #222;
+    color: white;
+}
+
+.modo-escuro nav {
+    background-color: #333;
+}
+
+.modo-escuro nav a {
+    color: white;
+}
+
+.modo-escuro main {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.modo-escuro table {
+    background-color: #2a2a2a;
+    color: white;
+}
+
+.modo-escuro table th {
+    background-color: #444;
+}
+
+.modo-escuro table tbody tr:nth-child(even) {
+    background-color: #333;
+}
+
+.modo-escuro #biografia-visual figcaption {
+    color: #ccc;
+}
+
+.modo-escuro #biografia-visual img {
+    border-color: #1e1e1e;
+}
+
+.modo-escuro #citacao {
+    background-color: #252424;
+    border-left: 5px solid #1f1e1e;
+    color: #ccc;
+}
+
+.modo-escuro #citacao blockquote {
+    color: #ddd;
+}
+
+.modo-escuro #citacao cite {
+    color: #bbb;
+}
+
+section ul {
+    color: #000000;
+}
+.modo-escuro section ul {
+    color: #ffffff;
+}
+
+
